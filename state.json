@@ -1,0 +1,64 @@
+{
+    "director_id": "80ac8089-340a-419f-4c4f-c7de4af27b77",
+    "installation_id": "281cd01b-31df-4593-600a-806b6a1df70d",
+    "current_vm_cid": "agent_id:23007e2f-a27b-46fd-764b-62fb58acc7e1;resource_group_name:bosh-1",
+    "current_stemcell_id": "dd4c03ec-7bd8-45fa-599c-00f0293392cb",
+    "current_disk_id": "aafc4ae2-8aa6-4ca3-5da3-3da852ae5ca1",
+    "current_release_ids": [
+        "c26c1dce-ea94-40a5-429b-bf10d1f311a5",
+        "504f189a-babc-4be7-4ff0-386c8cd4a075",
+        "af524cd1-54b0-4387-7be3-647a4e2d1e94",
+        "a9f8aedb-1ce2-406c-5be7-756919ead4b8",
+        "3cb1357b-4e04-45c8-5a95-a773b51347da",
+        "2a367823-9061-40f7-5206-3820dc9fe456"
+    ],
+    "current_manifest_sha": "a07b155c6d5910d682d498ba11e495fce1fc45aafe527f999b8befc614bb28ef08b16795de0e69bd9f3bb9b68b7f4297a348d2ab2512b4b192f94b1e7dc18763",
+    "disks": [
+        {
+            "id": "aafc4ae2-8aa6-4ca3-5da3-3da852ae5ca1",
+            "cid": "caching:None;disk_name:bosh-disk-data-2a3f3667-c646-42c2-a8dd-87261e682312;resource_group_name:bosh-1",
+            "size": 65536,
+            "cloud_properties": {}
+        }
+    ],
+    "stemcells": [
+        {
+            "id": "dd4c03ec-7bd8-45fa-599c-00f0293392cb",
+            "name": "bosh-azure-hyperv-ubuntu-xenial-go_agent",
+            "version": "97.17",
+            "cid": "bosh-stemcell-2e8bea92-9868-4fbd-a6aa-eed690011816"
+        }
+    ],
+    "releases": [
+        {
+            "id": "c26c1dce-ea94-40a5-429b-bf10d1f311a5",
+            "name": "bosh",
+            "version": "268.2.0"
+        },
+        {
+            "id": "504f189a-babc-4be7-4ff0-386c8cd4a075",
+            "name": "bpm",
+            "version": "0.12.3"
+        },
+        {
+            "id": "af524cd1-54b0-4387-7be3-647a4e2d1e94",
+            "name": "bosh-azure-cpi",
+            "version": "35.5.0"
+        },
+        {
+            "id": "a9f8aedb-1ce2-406c-5be7-756919ead4b8",
+            "name": "os-conf",
+            "version": "18"
+        },
+        {
+            "id": "3cb1357b-4e04-45c8-5a95-a773b51347da",
+            "name": "uaa",
+            "version": "64.0"
+        },
+        {
+            "id": "2a367823-9061-40f7-5206-3820dc9fe456",
+            "name": "credhub",
+            "version": "2.0.2"
+        }
+    ]
+}
